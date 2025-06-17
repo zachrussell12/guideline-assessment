@@ -23,3 +23,11 @@
 ## Decision List:
 
 - **Decision 1**: Added basic styling to the card component and swapped out temporary colors.
+
+# Zachary Russell 5:14PM
+
+## Decision List:
+
+- **Decision 1**: Added the view more details button functionality.
+- **Decision 2**: Added the add to cart log statement.
+- **Decision 3**: Tried to add as much responsiveness as possible.
