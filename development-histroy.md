@@ -17,3 +17,9 @@
 ## Decision List:
 
 - **Decision 1**: Added type safe props to ProductCard component and displayed them in the component without styling.
+
+# Zachary Russell 4:40PM
+
+## Decision List:
+
+- **Decision 1**: Added basic styling to the card component and swapped out temporary colors.

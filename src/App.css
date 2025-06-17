@@ -1,18 +1,32 @@
 .cards-container{
   display: flex;
   flex: 1;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
   margin-inline: 16px;
   margin-block: 16px;
   box-sizing: border-box;
   justify-content: center;
   align-items: start;
-  background-color: green;
 }
 
 .product-card-container{
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  width: min(80vw, 90vw);
+}
+
+.product-card-container img{
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-content{
   background-color: red;
+  margin-top: -48px;
+  border-radius: 10px;
+  background-color: var(--foreground);
+  padding-inline: 8px;
 }
