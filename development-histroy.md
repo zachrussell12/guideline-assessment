@@ -11,3 +11,9 @@
 
 - **Decision 1**: Created product card component.
 - **Decision 2**: Created basic styling for parent container and card.
+
+# Zachary Russell 4:27PM
+
+## Decision List:
+
+- **Decision 1**: Added type safe props to ProductCard component and displayed them in the component without styling.

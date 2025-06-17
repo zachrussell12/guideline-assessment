@@ -1,7 +1,19 @@
 import React from 'react'
 
-export default function ProductCard() {
+interface Props{
+    name: string,
+    desc: string,
+    price: number,
+    imageURL: string,
+}
+
+export default function ProductCard({name, desc, price, imageURL}: Props) {
     return (
-        <div className='product-card-container'>ProductCard</div>
+        <div className='product-card-container'>
+            <img src={imageURL} alt="Shampoo Bottle" />
+            <h3>{name}</h3>
+            <p>{desc}</p>
+            <h4>{price}</h4>
+        </div>
     )
 }
